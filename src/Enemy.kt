@@ -1,3 +1,8 @@
-class Enemy { var name: String = "Враг"
-    var hp: Int = 50
+class Enemy {
+    var name: String
+    var hp: Int
+    constructor(name: String, hp: Int){
+        this.name = name
+        this.hp = hp
+    }
 }

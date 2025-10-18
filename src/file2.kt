@@ -1,3 +1,4 @@
+/*
 fun main(){
     val naruto : hero = hero()
     naruto.name = "geralt"
@@ -27,4 +28,11 @@ fun main(){
 
     val hro = hero()
     hro.takedamage(30)
+
+
+
+}*/
+fun main(){
+val cotract = Cotract("Vasya", "klk", 100, true)
+cotract.PrintContractInfo()
 }

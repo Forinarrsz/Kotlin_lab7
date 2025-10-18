@@ -1,9 +1,4 @@
-class hero {
-    var name: String = "еизвестный"
-    var gender: String = "не указан"
-    var role: String = "бродяга"
-    var hp: Int = 100
-    var mp: Int = 100
+class hero(var name: String, var gender: String, var role: String, var hp: Int, var mp: Int) {
     fun hello() {
         println("i`m $name, My journey is just beginning.")
     }
@@ -41,7 +36,6 @@ class hero {
     fun CastSpellOn(enemy: Enemy, spellname:String,damage:Int){
         println("$name использует заклинание $spellname против ${enemy.name}")
     }
-
 
 
 }

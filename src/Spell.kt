@@ -1,13 +1,3 @@
-class Spell(var name: String, var width: Int, var height: Int, var symbol: String) {
+import magic.MagicEffect
 
-
-    fun cast() {
-        println("Кастуем $name")
-        repeat(height) {
-            repeat(width)
-            { print(symbol) }
-            println()
-        }
-
-    }
-}
+class Spell(name: String, val width: Int = 0, val height: Int =0, symbol: String): MagicEffect(name, symbol, 10)
